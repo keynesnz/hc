@@ -303,9 +303,9 @@ console.log("Worker response:", response.status);
 
 
             setStatus(
-                `Berhasil decrypt dengan key: ${data.key}`,
-                "success"
-            );
+    "Berhasil decrypt.",
+    "success"
+);
 
 
         } catch (error) {
