@@ -255,14 +255,17 @@ sniffButton.addEventListener(
             );
 
 
-            const response =
-                await fetch(
-                    API_URL,
-                    {
-                        method: "POST",
-                        body: formData
-                    }
-                );
+            console.log("Uploading to:", API_URL);
+
+const response = await fetch(
+    API_URL,
+    {
+        method: "POST",
+        body: formData
+    }
+);
+
+console.log("Worker response:", response.status);
 
 
             let data;
