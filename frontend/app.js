@@ -6,7 +6,7 @@
  */
 
 const API_URL =
-    "https://YOUR-WORKER.workers.dev/decrypt";
+    "https://green-boat-901e.sabar-41c.workers.dev/decrypt";
 
 
 const fileInput =
